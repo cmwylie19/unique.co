@@ -3436,7 +3436,12 @@ nav .input-field input {
     padding-left: 2rem;
 }
 .nav-main-link {
+    /* color: #0071BC !important; */
   /* color: #fff !important; */
+}
+
+.nav-main-link:hover {
+     color: #0071BC !important;
 }
 nav .input-field input:focus,
 nav .input-field input[type="date"]:valid,
