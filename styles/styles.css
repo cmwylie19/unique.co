@@ -8007,12 +8007,22 @@ strong {
     opacity: 0;
 }
 #header {
+     background-color: white !important;
     position: fixed;
     top: 0;
     z-index: 15;
     width: 100%;
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
+}
+.hero-text {
+    font-family: 'Raleway', sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 #header:not(.frontpage) {
     background-color: #555759;
@@ -8049,6 +8059,7 @@ strong {
 #header a.active {
     font-weight: 700;
 }
+
 #header ul.main-nav {
     font-size: 0.9em;
 }
