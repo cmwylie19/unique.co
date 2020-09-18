@@ -8001,7 +8001,7 @@ strong {
 .modal p {
   font-size: 0.75em;
 }
-.modal p.cargo-miembro {
+.modal p.member-job {
   font-size: 1em;
   margin: 0;
 }
@@ -8341,21 +8341,21 @@ strong {
     margin-top: 113px;
   }
 }
-.modulo {
+.module {
   margin-top: -105px;
   padding-top: 105px;
   background-clip: content-box;
 }
 @media only screen and (min-width: 993px) {
-  .modulo {
+  .module {
     margin-top: -113px;
     padding-top: 113px;
   }
 }
-.modulo.encabezado_lista .page-subtitle {
+.module.encabezado_lista .page-subtitle {
   margin-top: 1.5em;
 }
-.modulo.lista .container {
+.module.lista .container {
   margin-top: 2.5em;
 }
 .module-title,
@@ -8449,7 +8449,7 @@ h2.page-title:after {
   background-color: #efefef;
   border-bottom: 6em solid #efefef;
 }
-.que_hacemos h2.titulo {
+.que_hacemos h2.title {
   font-size: 1em;
 }
 .que_hacemos .row {
@@ -8458,7 +8458,7 @@ h2.page-title:after {
 .que_hacemos .row.repeater {
   height: 100%;
 }
-.que_hacemos .imagen-col {
+.que_hacemos .image-col {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8469,7 +8469,7 @@ h2.page-title:after {
   -ms-flex-pack: end;
   justify-content: flex-end;
 }
-.que_hacemos .imagen-col img {
+.que_hacemos .image-col img {
   margin-top: 5px;
   max-width: 42px;
 }
@@ -8539,11 +8539,11 @@ h2.page-title:after {
     max-width: 150px;
   }
 }
-.modulo.equipo {
+.module.team {
   background-color: #bbbcbd;
   padding-bottom: 0;
 }
-.modulo.equipo .row {
+.module.team .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8551,10 +8551,10 @@ h2.page-title:after {
   flex-wrap: wrap;
   margin-bottom: 0;
 }
-.modulo.equipo .row .col {
+.module.team .row .col {
   margin-left: 0;
 }
-.modulo.equipo .miembro-equipo {
+.module.team .member-team {
   text-align: center;
   background-size: cover;
   color: #fff;
@@ -8565,15 +8565,15 @@ h2.page-title:after {
   transition: all 0.3s;
   overflow: hidden;
 }
-.modulo.equipo .miembro-equipo:hover {
+.module.team .member-team:hover {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
 }
-.modulo.equipo .miembro-equipo:hover .contenido-miembro {
+.module.team .member-team:hover .member-content {
   right: 0;
   opacity: 1;
 }
-.modulo.equipo .miembro-equipo:before {
+.module.team .member-team:before {
   content: "";
   display: block;
   position: absolute;
@@ -8591,21 +8591,21 @@ h2.page-title:after {
   background: linear-gradient(-180deg, hsla(0, 0%, 100%, 0) 32.07%, #000);
   opacity: 0.4;
 }
-.modulo.equipo .miembro-equipo:after {
+.module.team .member-team:after {
   content: "";
   display: block;
   padding-bottom: 100%;
 }
-.modulo.equipo .miembro-equipo.trabaja-con-nosotros {
+.module.team .member-team.work-with-us {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
   margin-left: auto;
   background-color: #ddddde;
 }
-.modulo.equipo .miembro-equipo.trabaja-con-nosotros:before {
+.module.team .member-team.work-with-us:before {
   background: none;
 }
-.modulo.equipo .miembro-equipo.trabaja-con-nosotros .contenido-trabaja {
+.module.team .member-team.work-with-us .content-work {
   position: absolute;
   bottom: 3em;
   right: 0.75em;
@@ -8614,39 +8614,39 @@ h2.page-title:after {
   color: #555759;
 }
 @media only screen and (max-width: 992px) {
-  .modulo.equipo .miembro-equipo.trabaja-con-nosotros .contenido-trabaja {
+  .module.team .member-team.work-with-us .content-work {
     bottom: 1em;
   }
 }
 @media only screen and (min-width: 993px) {
-  .modulo.equipo .miembro-equipo.trabaja-con-nosotros .contenido-trabaja {
+  .module.team .member-team.work-with-us .content-work {
     left: 1.5em;
     right: 1.5em;
   }
 }
-.modulo.equipo
-  .miembro-equipo.trabaja-con-nosotros
-  .contenido-trabaja
-  .contenido-texto {
+.module.team
+  .member-team.work-with-us
+  .content-work
+  .content-texto {
   font-size: 1em;
 }
 @media only screen and (min-width: 601px) {
-  .modulo.equipo
-    .miembro-equipo.trabaja-con-nosotros
-    .contenido-trabaja
-    .contenido-texto {
+  .module.team
+    .member-team.work-with-us
+    .content-work
+    .content-texto {
     font-size: 1.5em;
   }
 }
 @media only screen and (min-width: 993px) {
-  .modulo.equipo
-    .miembro-equipo.trabaja-con-nosotros
-    .contenido-trabaja
-    .contenido-texto {
+  .module.team
+    .member-team.work-with-us
+    .content-work
+    .content-texto {
     font-size: 2em;
   }
 }
-.modulo.equipo .miembro-equipo .contenido-miembro {
+.module.team .member-team .member-content {
   position: absolute;
   left: 0;
   right: -150%;
@@ -8655,16 +8655,16 @@ h2.page-title:after {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.modulo.equipo .miembro-equipo .nombre-miembro {
+.module.team .member-team .member-name {
   font-size: 1em;
   margin: 0;
   text-transform: uppercase;
   display: inline-block;
 }
-.modulo.equipo .miembro-equipo .cargo-miembro {
+.module.team .member-team .member-job {
   margin: 0;
 }
-.modulo.equipo .ver-mas {
+.module.team .see-more {
   width: 1em;
   height: 1.5em;
   font-weight: 700;
@@ -8682,11 +8682,11 @@ h2.page-title:after {
   color: #fff;
   line-height: 1;
 }
-.modulo.equipo .foto-miembro {
+.module.team .foto-member {
   width: 100%;
   position: relative;
 }
-.modulo.equipo .foto-miembro .ver-mas {
+.module.team .foto-member .see-more {
   position: absolute;
   top: 1em;
   right: 0;
@@ -8711,7 +8711,7 @@ h2.page-title:after {
   width: auto;
   max-width: 100px;
 }
-.col.list-item .titulo {
+.col.list-item .title {
   color: #0047ba;
   font-size: 1em;
   font-weight: 600;
@@ -8723,7 +8723,7 @@ h2.page-title:after {
   opacity: 0.7;
   margin: 0 0 1em;
 }
-.col.list-item .contenido {
+.col.list-item .content {
   font-size: 0.9em;
 }
 .fila_logos .fila-item {
@@ -8733,7 +8733,7 @@ h2.page-title:after {
 .fila_logos .fila-item:last-child {
   border-bottom: none;
 }
-.fila_logos .titulo-fila {
+.fila_logos .title-fila {
   font-size: 1em;
   color: #0047ba;
   font-weight: 400;
@@ -8760,11 +8760,11 @@ h2.page-title:after {
   flex: 0 1 25%;
   padding: 1em;
 }
-.modulo.boton {
+.module.button {
   margin-bottom: 4em;
 }
-.modulo.boton .btn,
-.modulo.boton .btn-large {
+.module.button .btn,
+.module.button .btn-large {
   margin: 0 2em;
 }
 /*# sourceMappingURL=app.css.map*/
